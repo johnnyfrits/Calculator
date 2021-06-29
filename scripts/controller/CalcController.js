@@ -41,7 +41,7 @@ class CalcController {
             
             this.addEventListenerAll( btn, 'click drag', e => {
 
-                console.log(btn.className.baseVal.replace("btn-", ""));
+                console.log(btn.className.baseVal.replace("btn-", " "));
             });
         });
     }
